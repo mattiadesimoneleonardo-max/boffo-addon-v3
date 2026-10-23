@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "boffo-addon",
+  "version": "1.1.0",
+  "name": "Boffo Addon",
+  "description": "Meteor-Client-Addon: Relog-Zaehler pro Server.",
+  "authors": ["Boffo"],
+  "environment": "client",
+  "entrypoints": {
+    "meteor": ["com.boffo.addon.BoffoAddon"]
+  },
+  "custom": {
+    "meteor-client:color": "145,61,226"
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": "1.21.11",
+    "meteor-client": "*"
+  }
+}
